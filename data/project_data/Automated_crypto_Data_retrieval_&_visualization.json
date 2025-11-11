@@ -1,0 +1,7 @@
+{
+  "title": "Automated Crypto API Data Retrieval & Visualization",
+  "description": "This project automates fetching cryptocurrency data via public APIs, processes and cleans the data using Python, and delivers visualisations to support analysis and insights into market trends. It includes a workflow for scheduled data retrieval, transformation (e.g., time‑series formatting), and generation of charts or dashboards for exploratory insight. The implementation leverages libraries such as pandas for data manipulation, requests or API wrappers for retrieval, and matplotlib or seaborn (or similar) for visualisation.",
+  "skills": ["Python", "API Integration", "Data Retrieval", "Pandas", "Time‑Series Analysis", "Data Visualization", "Automation"],
+  "category": "API Integration",
+  "github_link": "https://github.com/Adieltheanalyst/Automated‑Crypto‑API‑Data‑Retrieval‑and‑Visualization"
+}
