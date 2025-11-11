@@ -1,0 +1,7 @@
+{
+  "title": "Top 50 Fast‑Food Chains in USA – Analysis",
+  "description": "This project analyzes a dataset of the top 50 American fast‑food chains by store count, sales and growth trends. It involves data ingestion, cleaning and exploratory analysis (e.g., trends over years, comparisons across chains), and visualisations to uncover patterns in industry expansion, market share and consumer behaviour. The analysis is carried out in Python using pandas, matplotlib/seaborn for visualisation, and Jupyter notebooks for interactive workflow.",
+  "skills": ["Python", "Pandas", "NumPy", "Exploratory Data Analysis (EDA)", "Data Visualization", "Jupyter Notebook"],
+  "category": "Data Analysis",
+  "github_link": "https://github.com/Adieltheanalyst/Top-50-Fast-Food-Chains-In-USA-Analysis"
+}
