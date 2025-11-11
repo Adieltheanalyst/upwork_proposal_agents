@@ -1,0 +1,7 @@
+{
+  "title": "Homicide Analysis",
+  "description": "This project performs exploratory analysis on homicide data to uncover patterns, trends, and insights relating to violent incidents. It includes data cleaning and preprocessing, exploratory visualisation of victim/offender characteristics and temporal patterns, and possibly geospatial mapping or rate calculations to support interpretation. The work is implemented in Python (likely using pandas, matplotlib/seaborn, possibly geopandas) and showcases an end‑to‑end data science workflow applied to crime‑data.",
+  "skills": ["Python", "Pandas", "NumPy", "Exploratory Data Analysis (EDA)", "Data Visualization", "Geospatial Analysis (if applicable)"],
+  "category": "Data Analysis",
+  "github_link": "https://github.com/Adieltheanalyst/Homicide-analysis"
+}
