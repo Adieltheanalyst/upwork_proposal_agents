@@ -1,0 +1,7 @@
+{
+  "title": "Text Classification with 20 Newsgroups Dataset",
+  "description": "This project uses the well‑known 20 Newsgroups Dataset to build and evaluate a multi‑class text classification pipeline. It includes data loading of newsgroup posts, text preprocessing (tokenization, stop‑word removal, vectorisation), model training and evaluation (e.g., Naive Bayes, SVM or similar) using Python and scikit‑learn. The workflow demonstrates practical implementation of NLP techniques for document categorisation across 20 distinct subject topics.",
+  "skills": ["Python", "Natural Language Processing (NLP)", "Text Preprocessing", "TF‑IDF / Vectorization", "Scikit‑learn", "Multi‑class Classification", "Model Evaluation"],
+  "category": "Machine Learning",
+  "github_link": "https://github.com/Adieltheanalyst/Text-Classification-with-20-Newsgroups-Dataset"
+}
