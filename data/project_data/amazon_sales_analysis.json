@@ -1,0 +1,7 @@
+{
+  "title": "Amazon Sales Analysis",
+  "description": "This project performs a comprehensive exploratory data analysis on an Amazon sales dataset, diving into revenue trends, regional and product‑level insights, and key performance indicators for an e‑commerce environment. It includes data cleaning and transformation using Python (pandas/NumPy), followed by visualizations of time‑based trends (monthly/yearly), product/category performance, and sales channel breakdowns. The workflow delivers business‑intelligence insights through interactive charts and structured reporting.",
+  "skills": ["Python", "Pandas", "NumPy", "Exploratory Data Analysis (EDA)", "Data Visualization", "Matplotlib/Seaborn", "Business Intelligence Reporting"],
+  "category": "Data Analysis",
+  "github_link": "https://github.com/Adieltheanalyst/Amazon_sales_analysis"
+}
