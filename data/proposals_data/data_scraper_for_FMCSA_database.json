@@ -1,0 +1,12 @@
+{
+  "job": {
+    "title": "Data Scraper for FMCSA Database",
+    "category": "Data Extraction",
+    "posted_date": "2025-10-14",
+    "description": "We are seeking an experienced data scraper/data engineer to collect public information from the FMCSA database. The task involves extracting publicly listed email addresses for registered carriers, brokers, and authorities. The ideal candidate should have strong experience with Python or Node.js and a deep understanding of web scraping best practices, including rate-limiting and compliance with robots.txt."
+  },
+  "proposal": {
+    "applicant_name": "Adiel",
+    "text": "Hi,\n\nI have strong experience in large-scale web scraping and data engineering using Python, and I can efficiently extract publicly available contact data from the FMCSA database while respecting rate limits and compliance standards.\n\nHere’s how I would approach your project:\n\nScrape public company profiles for carriers, brokers, and authorities\nExtract only publicly listed contact emails and verify their availability\nImplement rate-limiting, retries, and user-agent rotation to ensure stability and compliance\nDeliver a clean CSV/JSON dataset with fields such as company name, DOT/MC number, email, phone, and status\n(Optional) Provide the reusable scraping script with documentation\n\nLet me know if you prefer the output grouped by business type (carrier vs broker) or combined into one dataset. I’m ready to begin right away.\n\nBest regards,\nAdiel"
+  }
+}
