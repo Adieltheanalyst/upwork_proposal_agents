@@ -1,0 +1,7 @@
+{
+  "title": "Yahoo Finance Scraper",
+  "description": "This project automates the extraction of financial data from Yahoo Finance, allowing users to pull historical prices, company fundamentals, and market metrics via Python scripting. It uses web‑scraping techniques and possibly API endpoints embedded in Yahoo’s infrastructure to collect, parse, clean and store structured datasets for further analysis. The repository demonstrates building a reliable pipeline for financial data retrieval and preprocessing for downstream analytic tasks.",
+  "skills": ["Python", "Web Scraping", "Financial Data Extraction", "Pandas", "Time Series Data Processing"],
+  "category": "Web Scraping",
+  "github_link": "https://github.com/Adieltheanalyst/yahoo-finance-scraper"
+}
