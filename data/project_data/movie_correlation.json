@@ -1,0 +1,7 @@
+{
+  "title": "Movie Correlation Project",
+  "description": "This project conducts an exploratory correlation analysis on a movie dataset, examining relationships between factors such as budget, gross revenue, viewer votes, production company and other attributes. It uses Python for data cleaning, transformation, and statistical correlation computations (e.g., Pearson/Spearman), and visualises findings using scatter plots, heatmaps and other EDA techniques. The workflow demonstrates how to extract insight from film‑industry data and infer patterns that might inform revenue performance or audience metrics.",
+  "skills": ["Python", "Pandas", "NumPy", "Exploratory Data Analysis (EDA)", "Correlation Analysis", "Data Cleaning", "Data Visualization"],
+  "category": "Data Analysis",
+  "github_link": "https://github.com/Adieltheanalyst/Movie-correlation-project"
+}
