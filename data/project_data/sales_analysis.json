@@ -1,0 +1,7 @@
+{
+  "title": "Sales Analysis with Python",
+  "description": "This project conducts an end‑to‑end exploratory data analysis (EDA) on sales data using Python. It loads raw transactional data, cleans and transforms it (e.g., handling dates, aggregating by month or region), and uses visualisation tools to extract business insights such as top‑performing products, seasonal trends, and revenue drivers. The notebook approach demonstrates standard data‑wrangling and plotting techniques (using libraries like pandas, matplotlib/seaborn) to turn raw sales logs into actionable intelligence.",
+  "skills": ["Python", "Pandas", "NumPy", "Exploratory Data Analysis (EDA)", "Data Cleaning", "Data Visualization", "Matplotlib", "Seaborn"],
+  "category": "Data Analysis",
+  "github_link": "https://github.com/Adieltheanalyst/Sales-Analysis-with-Python"
+}
