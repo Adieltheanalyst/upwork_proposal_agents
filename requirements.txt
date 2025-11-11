@@ -1,0 +1,8 @@
+pandas
+langchain 
+IPython 
+langgraph
+langchain_groq
+langchain_chroma
+langchain_text_splitters
+sentence-transformers
