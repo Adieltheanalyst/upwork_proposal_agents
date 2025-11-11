@@ -1,0 +1,7 @@
+{
+  "title": "Housing Price Prediction Competition Project",
+  "description": "This project participates in a housing price‑prediction challenge by applying advanced regression techniques to forecast residential property values. It includes data exploration, feature engineering, model building (e.g., tree‑based ensembles, regression models) and model evaluation using real or competition data. The workflow is implemented in Python, using notebooks and libraries like Pandas, Scikit‑learn, XGBoost/LightGBM, and visualisation tools to support results interpretation.",
+  "skills": ["Python", "Pandas", "NumPy", "Data Exploration", "Feature Engineering", "Regression Modeling", "XGBoost/LightGBM", "Model Evaluation", "Data Visualization"],
+  "category": "Machine Learning",
+  "github_link": "https://github.com/Adieltheanalyst/Housing-Price-Prediction-competition"
+}
