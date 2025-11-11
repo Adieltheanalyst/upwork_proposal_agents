@@ -1,0 +1,7 @@
+{
+  "title": "Scraping Data on Kenyan Companies",
+  "description": "This project automatically extracts publicly available data on Kenyan companies—such as names, addresses, contact info and other firmographic attributes—from online sources. It uses Python for web scraping (e.g., Requests/BeautifulSoup or Selenium), data cleaning and structuring via pandas, and outputs the dataset for purposes like market research, lead generation or analytics. The pipeline demonstrates end‑to‑end scraping, processing and dataset preparation tailored to the Kenyan company domain.",
+  "skills": ["Python", "Web Scraping", "BeautifulSoup/Requests", "Selenium (if applicable)", "Data Cleaning", "Pandas", "Dataset Preparation"],
+  "category": "Web Scraping",
+  "github_link": "https://github.com/Adieltheanalyst/scrapping-data-on-kenyan-companies"
+}
