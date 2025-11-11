@@ -4,4 +4,13 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "ipython>=9.7.0",
+    "langchain>=1.0.5",
+    "langchain-chroma>=1.0.0",
+    "langchain-groq>=1.0.0",
+    "langchain-text-splitters>=1.0.0",
+    "langgraph>=1.0.3",
+    "pandas>=2.3.3",
+    "sentence-transformers>=5.1.2",
+]
