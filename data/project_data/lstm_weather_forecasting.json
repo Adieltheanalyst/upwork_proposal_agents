@@ -1,0 +1,7 @@
+{
+  "title": "LSTM Weather Forecasting",
+  "description": "This project builds a time‑series forecasting pipeline using an LSTM neural network to predict weather variables (such as temperature) from historical data. It preprocesses sequential meteorological data, builds and trains a recurrent model architecture in Python, and evaluates its ability to forecast future values. The workflow demonstrates proficiency in data preparation, model architecture design (LSTM), and performance evaluation for temporal forecasting tasks.",
+  "skills": ["Python", "Pandas", "NumPy", "Time Series Forecasting", "Recurrent Neural Networks", "LSTM", "Machine Learning", "Data Preprocessing"],
+  "category": "Machine Learning",
+  "github_link": "https://github.com/Adieltheanalyst/LSTM-weather-forecasting"
+}

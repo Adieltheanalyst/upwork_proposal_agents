@@ -1,0 +1,7 @@
+{
+  "title": "RAG (Retrieval‑Augmented Generation) Project",
+  "description": "This project implements a retrieval‑augmented generation (RAG) pipeline that enables a model to answer user queries by retrieving relevant chunks of text from a custom knowledge base and then generating responses grounded in that context. It uses Python for document ingestion/chunking, embeddings (semantic vector representation), a vector store for retrieval, and a language model for generation. The workflow demonstrates how to combine retrieval + generation for more accurate, context‑aware Q&A and assistant capabilities.",
+  "skills": ["Python", "Document Processing", "Text Chunking", "Embeddings", "Semantic Search", "Vector Database", "Large Language Models (LLMs)", "Retrieval‑Augmented Generation"],
+  "category": "Machine Learning",
+  "github_link": "https://github.com/Adieltheanalyst/Rag"
+}

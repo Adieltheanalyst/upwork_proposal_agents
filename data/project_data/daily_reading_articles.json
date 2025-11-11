@@ -1,0 +1,7 @@
+{
+  "title": "Daily Reading Articles Automation",
+  "description": "This project automates the process of compiling and sending three selected journal articles via email. It uses a Python script along with a Jupyter notebook to collect content (via the `jim_donovan_journals.py` and `main.py` files) and then dispatch it to the user’s inbox. The workflow relies on standard Python libraries and email automation, supported by a configuration file (`pyproject.toml` + `requirements.txt`) and a simple batch script to trigger execution. It is designed for scheduled, recurring delivery of curated reading material.",
+  "skills": ["Python", "Jupyter Notebook", "Email Automation", "Batch Scripting", "Scripting Workflow"],
+  "category": "Automation",
+  "github_link": "https://github.com/Adieltheanalyst/daily_reading_articles"
+}

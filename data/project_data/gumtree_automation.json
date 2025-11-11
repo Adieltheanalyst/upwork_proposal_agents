@@ -1,0 +1,7 @@
+{
+  "title": "Gumtree Automation – Upwork Client Pipeline",
+  "description": "This project automates interaction with the Gumtree classifieds platform for clients on Upwork, enabling data extraction and posting workflows. It utilises Python scripting (potentially Selenium or Requests) to scrape listings or publish ads, process the listing data (price, category, location) and integrate with an Upwork client pipeline for lead generation or listing automation. The workflow demonstrates scraping, automation logic, and client‑facing deliverables for freelance engagements.",
+  "skills": ["Python", "Web Scraping", "Browser Automation", "Scripting Workflow", "Lead Generation Automation", "Client Pipeline Setup"],
+  "category": "Automation",
+  "github_link": "https://github.com/Adieltheanalyst/gumtree-automation-upwork-client-1"
+}

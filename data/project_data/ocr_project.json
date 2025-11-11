@@ -1,0 +1,7 @@
+{
+  "title": "OCR – Optical Character Recognition Project",
+  "description": "This project implements an optical character recognition (OCR) pipeline using Python to convert images or scanned documents into machine‑readable text. It likely includes image preprocessing steps (such as noise reduction and thresholding), uses libraries like OpenCV and Tesseract (or other OCR engines) for text extraction, and outputs structured results or a searchable text format. The workflow demonstrates document image handling, character recognition, and text post‑processing for downstream use.",
+  "skills": ["Python", "OpenCV", "Image Preprocessing", "Tesseract OCR", "Text Extraction", "Data Wrangling"],
+  "category": "Machine Learning",
+  "github_link": "https://github.com/Adieltheanalyst/OCR-Optical-Character-Recognition-"
+}

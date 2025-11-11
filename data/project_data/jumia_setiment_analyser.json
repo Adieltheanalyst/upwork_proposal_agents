@@ -1,0 +1,7 @@
+{
+  "title": "Jumia Sentiment Analyser",
+  "description": "This project analyses customer reviews for Jumia (an e‑commerce platform) to determine sentiment patterns and insights. It uses Python to scrape review texts, preprocess the data (cleaning, tokenization), applies sentiment classification (via NLP libraries or models), and visualises the distribution of positive, negative and neutral sentiments across product categories. The workflow demonstrates full‑cycle handling of e‑commerce text data from extraction through analysis and report generation.",
+  "skills": ["Python", "Web Scraping", "Natural Language Processing (NLP)", "Sentiment Analysis", "Data Cleaning", "Data Visualization"],
+  "category": "Data Analysis",
+  "github_link": "https://github.com/Adieltheanalyst/jumia_sentiment_analyser"
+}

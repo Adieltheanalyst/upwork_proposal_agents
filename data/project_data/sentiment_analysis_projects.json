@@ -1,0 +1,7 @@
+{
+  "title": "Sentiment‑Analysis Projects Collection",
+  "description": "This repository hosts multiple sentiment analysis projects covering various domains such as e‑commerce reviews, social media posts, and custom text datasets. Each project typically follows a workflow of data collection or scraping, text cleaning and preprocessing, feature extraction (e.g., TF‑IDF or embeddings), model training (machine learning or deep learning), and evaluation/visualisation of sentiment outcomes. The code is written in Python, uses Jupyter notebooks for exploratory work, and demonstrates end‑to‑end handling of text data through to actionable insights.",
+  "skills": ["Python", "Natural Language Processing (NLP)", "Text Preprocessing", "Sentiment Analysis", "Machine Learning", "Data Visualization"],
+  "category": "Data Analysis",
+  "github_link": "https://github.com/Adieltheanalyst/Sentiment-Analysis-Projects"
+}

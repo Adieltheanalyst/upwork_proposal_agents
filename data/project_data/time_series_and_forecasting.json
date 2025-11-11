@@ -1,0 +1,7 @@
+{
+  "title": "Time‑Series Analysis & Forecasting",
+  "description": "This project applies time‑series methods to analyse historical data and build forecasting models for future values. The workflow includes data preprocessing (handling missing values, stationarity checks, transformations), exploratory analysis of time trends/seasonality, and modelling using techniques such as ARIMA/LSTM (or other recurrent/forecasting architectures). It demonstrates end‑to‑end handling of temporal data—from raw sequence through modelling and forecast output—using Python notebooks and relevant libraries.",
+  "skills": ["Python", "Pandas", "NumPy", "Time Series Forecasting", "ARIMA/SARIMA", "LSTM (or RNN)", "Data Preprocessing", "Data Visualization"],
+  "category": "Machine Learning",
+  "github_link": "https://github.com/Adieltheanalyst/Time-series-analysis-and-forecasting-"
+}

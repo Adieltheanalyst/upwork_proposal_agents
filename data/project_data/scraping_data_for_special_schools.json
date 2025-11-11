@@ -1,0 +1,7 @@
+{
+  "title": "Scraping Data for Special Schools in Kenya",
+  "description": "This project automates the extraction of publicly‑available information for special‑needs school institutions in Kenya, collecting data such as institution name, location, special facility details, and contact information. It uses Python web‑scraping tools (e.g., Requests/BeautifulSoup or Selenium) to crawl target pages, parse structured and unstructured content, and output cleaned data suitable for downstream analysis. The dataset created supports education sector research, data cleaning workflows, and geospatial or accessibility visualizations for special‑education planning.",
+  "skills": ["Python", "Web Scraping", "BeautifulSoup", "Selenium", "Data Wrangling", "Pandas", "CSV/Excel Export"],
+  "category": "Web Scraping",
+  "github_link": "https://github.com/Adieltheanalyst/scrapping-data-for-special-schools-in-Kenya"
+}

@@ -1,0 +1,7 @@
+{
+  "title": "Chatbot Creation Project",
+  "description": "This project builds a conversational chatbot framework using Python and relevant libraries to process user input, manage dialogue flow, and generate responses. The repository includes scripts for handling intents or rules, integrating natural language processing, and deploying a simple chat interface or API endpoint. It demonstrates how a chatbot can be built end‑to‑end—from parsing input and applying logic to returning meaningful replies.",
+  "skills": ["Python", "Natural Language Processing (NLP)", "Chatbot Development", "Dialogue Management", "API Integration"],
+  "category": "Machine Learning",
+  "github_link": "https://github.com/Adieltheanalyst/chatbot_creation"
+}

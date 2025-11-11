@@ -1,0 +1,7 @@
+{
+  "title": "Patent Similarity Analyzer",
+  "description": "This project develops a tool to measure and analyze the similarity between patent documents by leveraging natural language processing and machine learning techniques. It preprocesses patent text (such as abstracts or claims), computes embeddings or vector representations, and then calculates similarity scores to highlight relationships or overlaps between patents. The workflow uses Python, text embedding libraries, and similarity metrics to support tasks such as prior‑art search or technology landscape mapping.",
+  "skills": ["Python", "NLP", "Embeddings", "Document Similarity", "Patent Analysis", "Machine Learning"],
+  "category": "Machine Learning",
+  "github_link": "https://github.com/Adieltheanalyst/patent-similarity-analyzer"
+}

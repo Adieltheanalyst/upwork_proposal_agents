@@ -1,0 +1,7 @@
+{
+  "title": "Real Estate Data Scraper",
+  "description": "This project automates the collection of property-listing data from real-estate websites using web-scraping techniques. It uses Python (likely BeautifulSoup/Requests/Selenium) to crawl listings, extract structured features such as price, location, bedrooms/bathrooms, and stores the results for further analysis. The tool is designed for building datasets of real-estate listings which can be used for market-analysis or investment research.",
+  "skills": ["Python", "Web Scraping", "BeautifulSoup/Requests or Selenium", "Data Collection", "Data Processing"],
+  "category": "Web Scraping",
+  "github_link": "https://github.com/Adieltheanalyst/Scrapping-real-estate-data"
+}

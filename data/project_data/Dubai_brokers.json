@@ -1,0 +1,7 @@
+{
+  "title": "Dubai Brokers Data Scraping",
+  "description": "This project automates the extraction of real‑estate broker and listing data in Dubai, leveraging web scraping techniques to build a structured dataset of broker names, contact details, listing counts and property details. It uses Python for crawling targeted websites, parsing HTML (and optionally handling dynamic content), and outputting cleaned results for downstream analysis or lead generation. The workflow demonstrates proficiency in data collection automation, web‑scraping pipelines and dataset preparation for real estate market insights.",
+  "skills": ["Python", "Web Scraping", "BeautifulSoup/Requests", "Data Cleaning", "Pandas", "Lead Generation Automation"],
+  "category": "Web Scraping",
+  "github_link": "https://github.com/Adieltheanalyst/dubai-brokers-data-scraping"
+}

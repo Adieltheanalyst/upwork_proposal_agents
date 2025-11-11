@@ -1,0 +1,7 @@
+{
+  "title": "RAG School Assistant",
+  "description": "This project implements a school-assistant tool using a Retrieval-Augmented Generation (RAG) pipeline to allow students to query educational content for school subjects. It loads or ingests relevant study material (e.g., documents, notes), creates embeddings, stores / retrieves context and uses a language model to answer questions grounded in that content. The system is built in Python, likely involves document processing (such as PDF/text chunking), semantic search, embeddings and LLM-based answer generation.",
+  "skills": ["Python", "Document Processing", "Semantic Search", "Embeddings", "Retrieval-Augmented Generation (RAG)", "Large Language Models", "Question Answering"],
+  "category": "Machine Learning",
+  "github_link": "https://github.com/Adieltheanalyst/Rag-school-assistant"
+}

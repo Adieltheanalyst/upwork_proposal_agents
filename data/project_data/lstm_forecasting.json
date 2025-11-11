@@ -1,0 +1,7 @@
+{
+  "title": "LSTM Forecasting Project",
+  "description": "This project uses an LSTM (Long Short‑Term Memory) neural network in Python to build a time‑series forecasting model. It starts with historical data preprocessing (normalization, train‑test split), constructs and trains an LSTM model, and outputs forecasts alongside evaluation metrics. The workflow demonstrates proficiency in sequential modelling techniques, recurrent neural networks, and time‑series prediction pipelines.",
+  "skills": ["Python","Pandas","NumPy","Time Series Forecasting","LSTM Neural Networks","Data Preprocessing","Deep Learning","Model Evaluation"],
+  "category": "Machine Learning",
+  "github_link": "https://github.com/Adieltheanalyst/LSTM‑Forecasting"
+}
