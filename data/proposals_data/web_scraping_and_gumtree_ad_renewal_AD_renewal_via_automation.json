@@ -1,0 +1,12 @@
+{
+  "job": {
+    "title": "Web Scraping and Gumtree Ad Renewal via Automation",
+    "category": "Data Extraction",
+    "posted_date": "2025-08-07",
+    "description": "We are seeking a skilled freelancer proficient in UiPath, Selenium, or similar automation tools to help scrape and renew advertisements on Gumtree. The ideal candidate will automate the process of retrieving ad data, ensuring timely updates and renewals to keep our listings fresh. Experience with web scraping and handling automation tasks efficiently is required. Please share your portfolio and relevant experience with similar projects."
+  },
+  "proposal": {
+    "applicant_name": "Adiel",
+    "text": "Hi there,\n\nKeeping listings fresh and up-to-date is critical on platforms like Gumtree, and automating this process can save you a lot of time while boosting visibility. This project is right up my alley—I’ve worked on similar automation tasks using tools like Selenium, UiPath, and Python-based scripts to handle both scraping and automated interactions like form submissions and renewals.\n\nFrom scraping ad data to scheduling timely renewals, I can help set up a smooth, reliable workflow that runs with minimal oversight. You can expect:\n\nAccurate scraping of ad data (titles, prices, timestamps, etc.)\nAutomated ad renewals triggered on your preferred schedule\nEasy-to-use scripts or bots, with documentation for ongoing use\nCompliance with Gumtree's usage policies\n\nIf it’s helpful, I’d be happy to share examples of similar automation workflows I’ve built, or jump on a quick call to discuss your exact needs.\n\nLooking forward to hearing more about the project,\nAdiel"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "job": {
+    "title": "Local-First PDF Ingestion & Staging System (Python + Streamlit + SQLite)",
+    "category": "Back-End Development",
+    "posted_date": "2025-08-13",
+    "description": "We need a local-only PDF ingestion and staging tool that can accept PDF uploads via a simple local UI, de-duplicate files using SHA-256 hashing, extract text from each page using pdfplumber, run Tesseract OCR only on pages that contain no embedded text, and store file metadata and page text in a local SQLite database. This will be used for internal document processing workflows. No personal data extraction, API integration, or external services are required — this is ingestion only.",
+    "requirements": [
+      "Accept PDF uploads via a simple local UI",
+      "De-duplicate files using SHA-256 hashing",
+      "Extract text from each page using pdfplumber",
+      "Run Tesseract OCR only on pages without embedded text",
+      "Store file metadata and page text in a local SQLite database"
+    ]
+  },
+  "proposal": {
+    "applicant_name": "Adiel Ngugi",
+    "text": "Hello Andrew,\n\nYour project aligns perfectly with work I’ve done before—most notably my Patent Similarity Analyzer, where I not only built the backend for PDF parsing and text extraction but also developed a full application for handling uploads, processing, and local storage.\n\nHere’s how I can deliver your requirements:\n\nSimple Local UI – A lightweight, intuitive interface for uploading PDFs, either via drag-and-drop or file selection.\n\nDe-duplication with SHA-256 – Prevents storing duplicate files by hashing uploads and checking against existing entries.\n\nSmart Text Extraction – Use pdfplumber for embedded text and automatically run Tesseract OCR only on pages without text.\n\nLocal SQLite Database – Store file metadata (hash, filename, page count, upload date) and per-page text for easy search and indexing.\n\nOffline-Only Operation – 100% local, no external API calls, ensuring privacy and security.\n\nI will ensure the tool is:\n\nFast and reliable for processing multiple PDFs in sequence\n\nExtensible, so you can add features like tagging, keyword search, or export later\n\nWell-documented for easy maintenance\n\nYou can view my related project here: https://github.com/Adieltheanalyst/patent-similarity-analyzer\n\nLet’s discuss your preferred UI framework (Tkinter, Streamlit, or a lightweight local web app) so I can build something that fits seamlessly into your workflow.\n\nBest regards,\nAdiel Ngugi"
+  }
+}

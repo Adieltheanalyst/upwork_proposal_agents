@@ -1,0 +1,123 @@
+{
+  "job": {
+    "title": "Selenium Automation Testing Training",
+    "category": "Automation Testing",
+    "posted_date": "2025-09-03",
+    "course_details": {
+      "method": "Live Online - One to one",
+      "start_date": "2025-09-08",
+      "end_date": "2025-09-12",
+      "time": "9am to 4pm (UK Time)"
+    },
+    "modules": [
+      {
+        "module": 1,
+        "title": "Introduction to Automation Testing",
+        "topics": [
+          "Overview of Software Testing",
+          "What is Automation Testing?",
+          "Manual Testing vs Automation Testing",
+          "Benefits and Challenges of Automation",
+          "Introduction to Selenium and its Components",
+          "Overview of Automation Tools (Selenium, QTP, TestComplete, etc.)"
+        ]
+      },
+      {
+        "module": 2,
+        "title": "Programming Fundamentals (Java or Python)",
+        "java_topics": [
+          "Java Basics: Data Types, Variables, Operators",
+          "Control Structures: if/else, switch, loops",
+          "Object-Oriented Programming Concepts: Classes, Objects, Inheritance, Polymorphism, Encapsulation, Abstraction",
+          "Exception Handling",
+          "Working with Collections and Arrays",
+          "Java Collections Framework: List, Map, Set, and Queue",
+          "File I/O and Logging",
+          "Logging with SLF4J",
+          "JDBC and ODBC Connectivity in Java"
+        ],
+        "python_topics": [
+          "Python Syntax and Data Types",
+          "Control Flow: if/else, loops",
+          "Functions and Modules",
+          "Object-Oriented Programming in Python",
+          "Exception Handling",
+          "File Handling and Logging"
+        ]
+      },
+      {
+        "module": 3,
+        "title": "Selenium WebDriver Basics",
+        "topics": [
+          "Introduction to Selenium WebDriver",
+          "Setting Up WebDriver (with Maven or pip)",
+          "Browser Drivers: ChromeDriver, GeckoDriver, EdgeDriver",
+          "Locators: ID, Name, ClassName, TagName, XPath, CSS Selectors, LinkText",
+          "Working with Web Elements: click, sendKeys, clear, isDisplayed, getText",
+          "Handling Forms and Input Fields",
+          "Automating Navigation and Browser Controls"
+        ]
+      },
+      {
+        "module": 4,
+        "title": "Advanced WebDriver Features",
+        "topics": [
+          "Handling Alerts and Popups",
+          "Working with Frames and iFrames",
+          "Handling Dropdowns and Checkboxes",
+          "Working with Tables and Dynamic Elements",
+          "Taking Screenshots",
+          "Page Load and Wait Strategies (Implicit, Explicit, Fluent Wait)"
+        ]
+      },
+      {
+        "module": 5,
+        "title": "Test Framework Integration",
+        "topics": [
+          "Introduction to TestNG (Java) or PyTest (Python)",
+          "Creating Test Suites",
+          "Annotations and Test Configuration",
+          "Grouping and Prioritizing Tests",
+          "Data-Driven Testing with Excel or CSV",
+          "Assertions and Reporting"
+        ]
+      },
+      {
+        "module": 6,
+        "title": "Page Object Model (POM)",
+        "topics": [
+          "Introduction to POM Design Pattern",
+          "Creating Page Classes and Test Classes",
+          "Maintaining Object Repositories",
+          "Implementing Reusable Components"
+        ]
+      },
+      {
+        "module": 7,
+        "title": "Automation Framework Development",
+        "topics": [
+          "Types of Frameworks: Linear, Modular, Data-Driven, Hybrid",
+          "Building a Keyword or Data-Driven Framework",
+          "Folder Structure and Best Practices",
+          "Reusability and Scalability Considerations"
+        ]
+      },
+      {
+        "module": 8,
+        "title": "Tools Integration",
+        "topics": [
+          "Selenium Grid for Parallel Execution",
+          "Jenkins for Continuous Integration",
+          "Git/GitHub for Version Control",
+          "Maven/Gradle for Build Management (Java)",
+          "Log4j or Python Logging for Log Management",
+          "Reporting Tools: Extent Reports, Allure Reports"
+        ]
+      }
+    ]
+  },
+  "proposal": {
+    "applicant_name": "Adiel",
+    "text": "Hi Shan,\n\nI see you’re looking to extract complete, accurate business data from BBB.org across niches like dentists, med spas, gyms, and more. That’s exactly the kind of large-scale web scraping I can help with.\n\nWith my background in Selenium automation (along with Python and proxies for scale), I’ve handled projects that required pulling thousands of records while avoiding blocking issues. I can capture every detail you listed—business info, contact details, BBB ratings, reviews, years in business, social links—and deliver it in a clean, structured Excel or Google Sheet.\n\nFor quality assurance, I suggest starting with a sample dataset from one niche/location. That way, you can review formatting and accuracy before I move on to the full scrape.\n\nWould you like me to prepare a quick sample from BBB.org so you can see the output structure?\n\nBest regards,\nAdiel"
+  }
+}

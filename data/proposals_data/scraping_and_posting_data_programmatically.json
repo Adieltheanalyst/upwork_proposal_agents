@@ -1,0 +1,12 @@
+{
+  "job": {
+    "title": "Scraping and Posting Data Programmatically",
+    "category": "Scripting & Automation",
+    "posted_date": "2025-09-05",
+    "description": "I want to build some bots that will read a certain input including credentials, read actions, post details, and matching instructions. There are 5 websites, and for each, I need a bot that logs in and performs actions—reading information and/or posting information based on the input files."
+  },
+  "proposal": {
+    "applicant_name": "Adiel",
+    "text": "Hi Alaa,\n\nYour project is right up my alley — building bots that can log in, read data, post information, and perform matching logic across multiple websites. I understand you need five separate bots, each tailored to its site but all driven by a common input structure (credentials, read, post details, matching).\n\nI’ve done a very similar project before on Gumtree AU, where I built an automation that logged in, scraped listing data, and even posted ads automatically when required. That experience taught me how to handle session management, form submissions, and error handling reliably — exactly what’s needed for your use case.\n\nHere’s how I’d approach your project:\n\nInput-driven design: One configuration file with credentials and actions (read/post/match) to keep things flexible.\n\nBot development: Five bots, each logging in and performing the required tasks specific to its platform.\n\nAutomation & reliability: Handle timeouts, retries, and login sessions gracefully.\n\nOutput: Structured results (CSV/JSON) and logs so you can easily track what each bot has done.\n\nI can also make these bots modular, so adding more websites in the future is straightforward.\n\nWould you like me to also set them up to run on a schedule automatically, or should they be triggered manually?\n\nLooking forward to building this automation system for you.\n\nBest regards,\nAdiel"
+  }
+}

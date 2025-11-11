@@ -1,0 +1,24 @@
+{
+  "job": {
+    "title": "Competitive Intelligence Analysis for Mobile Wound Care",
+    "category": "Market Research",
+    "posted_date": "2025-09-04",
+    "description": "I need a fast and accurate market assessment to identify the least-penetrated markets for a mobile wound care business. We need to analyze 15 specific MSA markets within 24-48 hours. The ideal candidate will use AI tools and modern digital research methods—not traditional, manual research—to complete this project quickly and cost-effectively.",
+    "deliverables": [
+      "MSA Ranking: A spreadsheet that ranks the 15 MSAs from least to most competitor penetration",
+      "Competitor List: For each MSA, a list of the top 3-5 mobile wound care competitors",
+      "Data Points: For each competitor, key data points including Website URL, Estimated SEO presence/ranking, Number of online reviews, and Key services offered"
+    ],
+    "tools_suggested": [
+      "Google Search / AI Search for competitor identification",
+      "Ahrefs or Semrush for SEO and keyword rankings",
+      "Google Trends to show search interest per MSA",
+      "Browse AI or similar scraping tools for competitor data",
+      "ChatGPT or similar AI for summarizing findings and identifying patterns"
+    ]
+  },
+  "proposal": {
+    "applicant_name": "Adiel Maina",
+    "text": "Hello,\n\nI understand that you need a fast and accurate market assessment to identify the least-penetrated MSAs for your mobile wound care business within the next 24–48 hours. Speed and accuracy are key here, and that’s exactly where I can help.\n\nI specialize in AI-driven market and competitor research, combining digital tools with automation to deliver insights quickly and cost-effectively. For example, I recently completed a mobile sentiment analysis on the Kenyan e-commerce market (Jumia), where I leveraged Python, scraping tools, and natural language processing to extract, analyze, and present actionable insights. I’ve attached that project in my portfolio for you to review.\n\nMy Approach for Your Project:\n\nCompetitor Identification: Using Google/AI search and scraping tools to pinpoint the top 3–5 mobile wound care providers in each MSA.\n\nSEO & Online Presence Analysis: Leveraging Ahrefs/Semrush to evaluate competitor visibility, rankings, and keyword strength.\n\nMarket Demand Check: Using Google Trends to compare search interest across the 15 MSAs.\n\nCompetitor Data Extraction: Automating data pulls (Browse AI / Python scripts) to capture services, locations, and online reviews.\n\nAI Summaries: Using ChatGPT for quick pattern recognition and to synthesize competitor data into clear insights.\n\nDeliverables:\n\nMSA Ranking: From least to most competitor penetration.\n\nCompetitor Lists: Top 3–5 competitors per MSA.\n\nKey Data Points: SEO presence, reviews, services, and URLs—structured in a clean, easy-to-use spreadsheet.\n\nI can deliver this within your timeframe while ensuring accuracy, automation, and insights that help you make the right market entry decision.\n\n📌 Let’s discuss your 15 target MSAs so I can get started right away. Would you like me to share a sample output structure before we proceed?\n\nBest regards,\nAdiel Maina"
+  }
+}

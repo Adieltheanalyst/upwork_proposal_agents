@@ -1,0 +1,45 @@
+{
+  "job": {
+    "title": "E-commerce Data Scraping & Dashboard Development",
+    "category": "Data Extraction",
+    "posted_date": "2025-09-09",
+    "description": "We are looking for a professional who can automate the collection of e-commerce sales data and present it through a user-friendly, interactive dashboard. The work involves designing a scraping solution, processing and structuring the dataset, and building a visual reporting tool in Power BI or Excel. The outcome should allow our team to monitor revenue, profit, customer segments, and product performance at a glance enabling faster and smarter decision-making.",
+    "work_breakdown": {
+      "data_collection": [
+        "Build an automated scraper with Selenium, BeautifulSoup + WebDriver",
+        "Capture details including Transaction Date, Buyer Name, Location (State/Region), Category & Sub-Category, Units Sold, Sales Value, Profit Margin, Payment Type",
+        "Configure for scheduled execution (daily/weekly)"
+      ],
+      "data_preparation": [
+        "Standardize categories, product names, and regional entries",
+        "Ensure uniform formatting for dates, currency, and numbers",
+        "Provide a clean dataset in CSV/Excel format"
+      ],
+      "analytics_insights": [
+        "Compute key business indicators: Gross Sales, Profit & Margins"
+      ],
+      "dashboard_reporting": [
+        "Create an interactive reporting dashboard in Power BI or Excel",
+        "Features: Dynamic filters (time, category, payment method)",
+        "Visualizations: Sales by State/Customer (bar chart), Category & Payment breakdown (pie chart), Monthly Profit (column chart), Sub-Category Profit (bar chart)",
+        "Automated scraping script with documentation"
+      ]
+    },
+    "skills_competencies": [
+      "Web Automation & Scraping: Selenium, BeautifulSoup, WebDriver",
+      "Data Processing in Python: Pandas, NumPy",
+      "Business Intelligence Tools: Power BI, Excel (advanced visualization)",
+      "Knowledge of ETL best practices",
+      "Ability to translate raw data into clear business insights"
+    ],
+    "application_guidelines": [
+      "Share an example of a previous project combining data scraping with dashboard/reporting",
+      "Bonus if the example is related to e-commerce or sales analysis"
+    ],
+    "urgency": "URGENT NEEDED!"
+  },
+  "proposal": {
+    "applicant_name": "Adiel",
+    "text": "Hi,\n\nI understand how important it is for you to have real-time visibility into sales performance without getting stuck in manual data collection. I’ve delivered similar projects before — for example, I built an end-to-end ETL pipeline for Jumia (extract, transform, load with scraping + sentiment analysis) and developed an Amazon sales dashboard that allowed instant tracking of KPIs like revenue, product performance, and profit margins.\n\nHere’s how I’d approach your project:\n\n🔹 Data Collection & Automation\nBuild a reliable scraper using Selenium + BeautifulSoup to capture all required fields (transaction date, buyer, location, sales value, margins, etc.).\nConfigure it for scheduled execution (daily/weekly) so your team always works with fresh data.\n\n🔹 Data Cleaning & Preparation\nStandardize product categories, regions, and currency/date formats.\nDeliver a clean, structured dataset in CSV/Excel, ready for analytics.\n\n🔹 Insights & Dashboards\nCreate a Power BI (or Excel) dashboard with dynamic filters and interactive visuals:\nSales by state/customer\nCategory & payment method breakdown\nMonthly profit trends\nSub-category profit drilldowns\nEnsure metrics like gross sales and margins are front and center for quick decision-making.\n\nWhy me?\nExperience combining scraping + analytics + visualization into one smooth solution.\nStrong background in Python (Pandas, NumPy), SQL, and BI tools.\nProven results in e-commerce analytics — I know the challenges of messy data and how to transform it into insights.\n\nSince this is urgent, I can prepare a working sample with a small dataset within 2–3 days so you can validate the approach before scaling.\n\n👉 Shall we start with a quick call to finalize the KPIs and dashboard design you’d like prioritized?\n\nBest regards,\nAdiel"
+  }
+}

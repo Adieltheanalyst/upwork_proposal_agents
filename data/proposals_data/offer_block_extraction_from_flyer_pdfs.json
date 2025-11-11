@@ -1,0 +1,23 @@
+{
+  "job": {
+    "title": "Offer Block Extraction from Flyer PDFs",
+    "description": "Develop a solution that extracts offer blocks from flyer PDFs and captures the following details:\n• Coordinates of each offer block (X, Y, Width, Height)\n• Text content, including Offer Name, Offer Price, Offer Type, Packaging Size, and other relevant information.",
+    "objective": "Develop a solution that extracts offer blocks from flyer PDFs and captures key details.",
+    "scope": {
+      "input": "Multi-page flyer PDFs",
+      "process": [
+        "Detect and segment individual offer blocks",
+        "Use OCR to extract and classify the text"
+      ],
+      "output": "CSV format with one row per offer block"
+    },
+    "deliverables": [
+      "Processing tool or script",
+      "Extracted data in CSV format"
+    ]
+  },
+  "proposal": {
+    "applicant_name": "Adiel Ngugi",
+    "text": "Hi there,\n\nYour project instantly caught my attention — extracting structured offer data from flyer PDFs is a challenge I’m well-prepared for. I've worked on similar projects involving OCR and PDF parsing, including a Patent Similarity Analyzer that scanned complex PDF layouts, extracted fields, and mapped them into structured formats.\n\nWith hands-on experience in:\n\nOCR using Tesseract and layout-aware tools like LayoutParser\n\nParsing multi-page PDFs and isolating data-rich segments\n\nDelivering clean, organized outputs (CSV/Excel) from semi-structured documents\n\nI can develop a streamlined tool that detects offer blocks, captures coordinates, and classifies each offer’s text into usable fields — all aligned with your specifications.\n\nWould you be open to a quick call or message exchange to confirm the type of flyers you're working with and whether there’s a consistent layout across them?\n\nLooking forward to helping you turn those PDFs into actionable data.\n\nPatent Similarity Analyzer: https://github.com/Adieltheanalyst/patent-similarity-analyzer\nOCR: https://github.com/Adieltheanalyst/OCR-Optical-Character-Recognition-\n\nBest regards,\nAdiel Ngugi"
+  }
+}
