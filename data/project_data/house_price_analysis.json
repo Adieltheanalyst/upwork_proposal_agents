@@ -1,0 +1,7 @@
+{
+  "title": "Housing Price Prediction",
+  "description": "This project builds a regression model that predicts house prices based on a dataset of housing features. It involves data exploration, preprocessing (handling missing values, feature transformations), feature engineering, and model selection/training using machine learning algorithms in Python (e.g., linear regression, tree‑based regressors). The workflow demonstrates an end‑to‑end machine learning pipeline from raw data through to predictive output and evaluation.",
+  "skills": ["Python", "Pandas", "NumPy", "Exploratory Data Analysis (EDA)", "Feature Engineering", "Regression Modeling", "Scikit‑learn", "Data Visualization"],
+  "category": "Machine Learning",
+  "github_link": "https://github.com/Adieltheanalyst/housing-price-prediction"
+}
