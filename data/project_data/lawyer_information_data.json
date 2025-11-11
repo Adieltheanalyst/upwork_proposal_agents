@@ -1,0 +1,7 @@
+{
+  "title": "Lawyer Information Data Scraper",
+  "description": "This project automates the extraction of publicly available lawyer‑firm and practitioner details (such as names, contact information, practice areas, and location) using web scraping techniques. It uses Python scripts (likely involving libraries such as Requests/BeautifulSoup or Selenium) to navigate target websites, parse structured and unstructured data, and output cleaned, structured datasets for downstream use. The tool is particularly suited to creating lead lists or directories for the legal services sector.",
+  "skills": ["Python", "Web Scraping", "BeautifulSoup / Selenium", "Data Cleaning", "Pandas", "Dataset Preparation"],
+  "category": "Web Scraping",
+  "github_link": "https://github.com/Adieltheanalyst/Lawyer-information-data"
+}
