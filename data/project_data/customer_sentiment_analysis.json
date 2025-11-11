@@ -1,0 +1,7 @@
+{
+  "title": "Customer Sentiment Analysis",
+  "description": "This project applies natural language processing and machine learning to classify customer sentiment from review or feedback text data. It involves loading and preprocessing text (cleaning, tokenization, vectorisation), training classification models (e.g., Naive Bayes, SVM) to label sentiments (positive/negative/neutral), and producing visualisations of sentiment distributions and key insights. The implementation is in Python and uses Jupyter notebooks for an interactive exploratory and modelling workflow.",
+  "skills": ["Python", "Natural Language Processing (NLP)", "Text Preprocessing", "Machine Learning Classification", "Data Visualization", "Jupyter Notebook"],
+  "category": "Machine Learning",
+  "github_link": "https://github.com/Adieltheanalyst/Customer-Sentiment-Analysis"
+}
