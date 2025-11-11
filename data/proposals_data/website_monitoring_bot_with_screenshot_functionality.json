@@ -1,0 +1,12 @@
+{
+  "job": {
+    "title": "Website Monitoring Bot with Screenshot Functionality",
+    "category": "Scripting & Automation",
+    "posted_date": "2025-10-24",
+    "description": "We are seeking a skilled developer to create a website monitoring bot that captures screenshots of specified web pages at regular intervals. The bot should notify us of any changes or downtime, providing an efficient way to keep track of website performance and content updates. Ideal candidates will have experience in web scraping, automation, and bot development. Please include relevant examples of similar projects in your proposal."
+  },
+  "proposal": {
+    "applicant_name": "Adiel",
+    "text": "Hello Nakul,\n\nI’d be glad to help with your website monitoring bot project. I have extensive experience in Python automation and web scraping, having developed multiple bots that track, capture, and analyze website changes in real time. My focus is on creating efficient, reliable systems that minimize false alerts and ensure smooth operation even over long monitoring periods.\n\nFor your project, I can build a bot that periodically captures full-page screenshots of specified URLs, compares them with previous versions, and immediately sends a notification (via email, Telegram, or Slack) when any visual or content change is detected — including downtime alerts. The bot can be configured for flexible scheduling, multi-site tracking, and storage of screenshots with timestamps for audit purposes.\n\nI’ve previously worked on automation tools involving Playwright and Selenium for dynamic web pages, as well as alert systems integrated with APIs for performance and content tracking. The solution will be lightweight, well-documented, and easy to deploy on your preferred server or VPS.\n\nI’m available to begin right away and can tailor the system to your exact monitoring needs.\n\nBest regards,\nAdiel"
+  }
+}
