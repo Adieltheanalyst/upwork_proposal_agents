@@ -1,0 +1,7 @@
+{
+  "title": "Match Outcome Prediction Algorithm",
+  "description": "This project builds a predictive algorithm to forecast the outcome of sporting matches (e.g., win/draw/lose) by leveraging historical match data, feature engineering and machine learning classification models. It covers data collection, preparation (cleaning, feature creation), model training and evaluation, implemented in Python notebooks and/or scripts. The workflow demonstrates end‑to‑end ability to handle raw match data through to probabilistic outcome predictions.",
+  "skills": ["Python", "Pandas", "NumPy", "Feature Engineering", "Machine Learning", "Classification Modeling", "Model Evaluation", "Data Visualization"],
+  "category": "Machine Learning",
+  "github_link": "https://github.com/Adieltheanalyst/Match‑predicting‑algorithim"
+}
