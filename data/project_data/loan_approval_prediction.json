@@ -1,0 +1,7 @@
+{
+  "title": "Loan Approval Prediction",
+  "description": "This project builds a binary classification model to predict whether a loan application will be approved or not. It includes data preprocessing (cleaning missing values, encoding categorical features, handling imbalances), exploratory analysis, feature engineering, and the use of Python machine‑learning libraries to train and evaluate models (e.g., logistic regression, decision trees). The workflow demonstrates a full ML pipeline—from importing and preparing the loan dataset to model training, evaluation and interpretation of key predictors.",
+  "skills": ["Python", "Pandas", "NumPy", "Data Cleaning", "Exploratory Data Analysis (EDA)", "Feature Engineering", "Scikit‑learn", "Classification Modeling"],
+  "category": "Machine Learning",
+  "github_link": "https://github.com/Adieltheanalyst/Loan-Approval-Prediction"
+}
