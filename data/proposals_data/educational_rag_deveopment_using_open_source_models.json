@@ -1,0 +1,54 @@
+{
+  "job": {
+    "title": "Education RAG Development Using Open Source Models",
+    "category": "AI Integration",
+    "posted_date": "2025-09-23",
+    "description": "We’re building a lean, production-ready Education RAG system that answers student/instructor questions using curated PDFs, slides, and notes. The stack will be open-source (LLM, embeddings, vector DB, reranker), with strong emphasis on accurate answers, page-level citations, and Socratic tutoring mode.",
+    "responsibilities": [
+      "Design and implement a hybrid retrieval pipeline (BM25 + dense) with cross-encoder reranking",
+      "Ingest/parse educational PDFs/slides; implement page/slide-aware chunking and metadata (course, unit, topic, difficulty)",
+      "Wire an open-source instruct LLM (e.g., Llama-3-8B/Qwen-2-7B) via Ollama or llama.cpp; add prompt templates for tutor mode",
+      "Build an API (FastAPI/Flask) with endpoints for /ingest, /query, /feedback",
+      "Implement citations (doc + page) and response guardrails (no missing-context hallucinations)",
+      "Add basic evaluation (ragas/TruLens) and telemetry",
+      "Provide Docker setup + readme; handoff with documentation"
+    ],
+    "deliverables": [
+      "Running service (Docker Compose) with Vector DB (Qdrant/Weaviate/FAISS)",
+      "Hybrid search + reranker (e.g., bge-m3 + bge-reranker)",
+      "LLM server (Ollama/llama.cpp)",
+      "Ingestion scripts (PyMuPDF/unstructured) with metadata + page spans",
+      "API + example client (CLI or minimal web UI)",
+      "Prompt templates (tutor mode, math-friendly, citation-first)",
+      "Evaluation notebook + baseline metrics (faithfulness, context recall)",
+      "Ops: logging, config, reproducible env, brief runbook"
+    ],
+    "required_skills": [
+      "Proven RAG builds with open-source models (links or repos)",
+      "Python (FastAPI), embeddings, vector search, BM25, cross-encoders",
+      "Hands-on with Qdrant/Weaviate/FAISS, sentence-transformers, Flashrank",
+      "LLM serving (Ollama/llama.cpp/vLLM), quantization basics (GGUF)",
+      "PDF/slide parsing (PyMuPDF), text normalization, chunking strategies",
+      "Docker, basic CI, and pragmatic benchmarking"
+    ],
+    "nice_to_have": [
+      "Education/EdTech experience; multilingual retrieval",
+      "Math-aware formatting (LaTeX handling), diagram/figure caption handling",
+      "Kubernetes, Grafana/Prometheus, auth (JWT)"
+    ],
+    "timeline_budget": {
+      "duration": "3–6 weeks for v1 (MVP), with option to extend",
+      "budget": "Fixed-price for MVP + hourly for follow-ups"
+    },
+    "application_requirements": [
+      "3 relevant RAG links (repos, demos) + brief note on your role",
+      "3–5 sentence approach to hybrid retrieval + reranking for edu content",
+      "Earliest start date and weekly availability in IST",
+      "Short paid screening task: ingest 2 sample PDFs, return answers with page-level citations for 10 test queries, share metrics and short readme"
+    ]
+  },
+  "proposal": {
+    "applicant_name": "Adiel Ngugi",
+    "text": "Hi Harish,\n\nI’m excited about your vision of building a lean, production-ready Education RAG system that not only answers student/instructor questions accurately but also provides page-level citations and a Socratic tutoring mode. I’ve been working on similar projects and even shared a demo video on Upwork to give you a sense of my hands-on experience.\n\nSome relevant work:\n📌 RAG Implementation – Built a retrieval-augmented pipeline using LangChain, Pinecone, and Hugging Face for intelligent document querying.\nRepo: https://github.com/Adieltheanalyst/Rag\n\n📌 Chatbot with PDF Support – Developed a demo that ingests PDFs and provides context-aware answers.\nLive demo: https://adieltheanalyst-chatbot-creation-pdf-support-wmtxbn.streamlit.app/\n\n📌 NLP Projects (Sentiment Analysis & Classification) – Applied ML/NLP techniques on real-world datasets like Jumia reviews to extract business insights.\n\nFor your project, here’s my high-level approach:\nHybrid Retrieval – Combine BM25 with dense embeddings (e.g., bge-m3) and apply cross-encoder reranking to ensure precise, citation-ready answers.\nEducational PDF Ingestion – Implement page-aware chunking with PyMuPDF/unstructured and store metadata (course, unit, difficulty) for structured querying.\nLLM Integration – Serve open-source models like Llama-3 or Qwen via Ollama/llama.cpp, fine-tuned with prompt templates for tutoring and math-friendly responses.\nAPI + Deployment – Expose endpoints (/ingest, /query, /feedback) via FastAPI, with Docker Compose setup for reproducibility and easy handoff.\nEvaluation – Use ragas/TruLens for baseline metrics (faithfulness, context recall) and telemetry for continuous monitoring.\n\nA few clarifications to align with your needs:\n- Do you already have a preferred vector DB (Qdrant, Weaviate, FAISS), or should I recommend based on scalability and resource limits?\n- Should the tutoring mode focus primarily on math-heavy content (LaTeX/diagrams) or general course notes first?\n- Are you looking to keep the stack entirely open-source, or would limited commercial APIs be acceptable for fallback?\n\nI can start as early as this week and dedicate focused hours to ensure v1 is ready within your 3–6 week timeline. I’m also comfortable with your short paid screening task to demonstrate capability.\n\nLooking forward to collaborating on a solution that transforms your educational content into a truly interactive learning assistant.\n\nBest regards,\nAdiel Ngugi"
+  }
+}
