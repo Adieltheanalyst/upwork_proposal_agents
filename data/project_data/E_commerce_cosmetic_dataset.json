@@ -1,0 +1,7 @@
+{
+  "title": "E‑commerce Cosmetic Dataset Analysis",
+  "description": "This project uses an e‑commerce dataset focused on cosmetics to perform exploratory data analysis and extract insights across product categories, brands, pricing, reviews and consumer behaviour. It includes data cleaning, transformation and visualisations (such as brand‑level comparisons, price vs. rating relationships and category trends) using Python and libraries like Pandas and Seaborn/Matplotlib. The outcome offers actionable observations on the cosmetics market as captured from product listing data. ",
+  "skills": ["Python", "Pandas", "NumPy", "Data Cleaning", "Exploratory Data Analysis (EDA)", "Data Visualization", "Seaborn", "Matplotlib"],
+  "category": "Data Analysis",
+  "github_link": "https://github.com/Adieltheanalyst/Ecommerce-cosmetic-dataset"
+}
