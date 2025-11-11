@@ -1,0 +1,7 @@
+{
+  "title": "Movie Recommendation System",
+  "description": "This project builds a recommendation engine that suggests movies to users based on either similar content features (genres, tags, metadata) or user‑behaviour patterns. It loads and preprocesses movie metadata, creates vectorised representations of titles or user profiles, then applies similarity models (such as cosine similarity) to recommend relevant titles. The workflow is implemented in Python using libraries like pandas and scikit‑learn, and is structured for reuse and extension.",
+  "skills": ["Python", "Pandas", "NumPy", "Recommendation Systems", "Content‑based Filtering", "Collaborative Filtering", "Scikit‑learn", "Data Preprocessing"],
+  "category": "Machine Learning",
+  "github_link": "https://github.com/Adieltheanalyst/Movie‑Recommendation‑System"
+}
