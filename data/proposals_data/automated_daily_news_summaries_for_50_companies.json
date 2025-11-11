@@ -1,0 +1,12 @@
+{
+  "job": {
+    "title": "Automate Daily News Summaries for 50 Companies",
+    "category": "Scripting & Automation",
+    "posted_date": "2025-10-30",
+    "description": "We are seeking a skilled freelancer to automate the process of gathering and summarizing news for a portfolio of 50 companies. The task involves using AI to filter and summarize news, and updating text files in folders for each company. Daily and weekly recap emails are required."
+  },
+  "proposal": {
+    "applicant_name": "Adiel Maina",
+    "text": "Hello Kartik,\n\nI’m very interested in helping you automate your news gathering and summarization workflow for the 50-company portfolio. I’ve actually completed a very similar project, where I built a Python-based system that automatically fetched daily news using the News API, classified each article by topic (e.g., macroeconomics, company updates, and opinions), summarized them using Groq LLM, and then emailed a daily digest.\n\nThe system handled:\n- Automatic news retrieval and categorization\n- AI-based summarization and relevance scoring\n- Secure storage using SQLite\n- Automated email delivery of daily/weekly summaries\n\nI also worked on a patent monitoring automation, where the system periodically scraped and summarized newly filed patents, ensuring consistent and structured updates — similar to the multi-company tracking you’re aiming for.\n\nFor your project, I can:\n- Set up automated scraping and AI summarization per company\n- Store summaries in text files within their respective folders\n- Schedule daily and weekly email recaps\n- Ensure secure handling of API keys and credentials\n\nWould you like the updates to be delivered via Gmail or a custom SMTP setup?\n\nnews_journals: https://github.com/Adieltheanalyst/daily_reading_articles\npatent_similarity_analyser: https://github.com/Adieltheanalyst/patent-similarity-analyzer\n\nBest regards,\nAdiel Maina"
+  }
+}
