@@ -1,0 +1,7 @@
+{
+  "title": "Estimation of CO₂ Emission Using Multiple Linear Regression",
+  "description": "This project builds a multiple linear regression model to estimate CO₂ emissions based on several input features. It includes data importation and cleaning, exploratory data analysis (EDA) to explore feature relationships, model construction using a linear regression framework, and model evaluation using metrics such as R² and mean squared error. The workflow is implemented in Python and demonstrates the use of regression techniques for environmental‑impact predictions.",
+  "skills": ["Python", "Pandas", "NumPy", "Exploratory Data Analysis (EDA)", "Multiple Linear Regression", "Scikit‑learn", "Model Evaluation"],
+  "category": "Machine Learning",
+  "github_link": "https://github.com/Adieltheanalyst/Estimation-of-co2-emission-using-multiple-linear-regression-"
+}
