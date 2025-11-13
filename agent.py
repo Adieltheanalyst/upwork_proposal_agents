@@ -33,10 +33,10 @@ def document_preprocessing(folder_path):
                 text=json.dumps(data, ensure_ascii=False)
                 docs.append(Document(page_content=text, metadata={"source": filename}))
     return docs
-def embedding_and_retrieval(folder_path, collection_name):
+def create_retriever(folder_path, collection_name):
     project_data=document_preprocessing(folder_path)
-    persist_directory=r"C:\Users\gacha\PycharmProjects\upwork_proposal_agent"
-
+    persist_directory = os.path.join("vectorstores", collection_name)
+    os.makedirs(persist_directory, exist_ok=True)
     vectorstore=Chroma.from_documents(
         documents=project_data,
         embedding=embeddings,
@@ -48,9 +48,9 @@ def embedding_and_retrieval(folder_path, collection_name):
                                     search_kwargs={"k":3})
     return retriever
 
-collection_name="project_data_1"
-project_retriever=embedding_and_retrieval(folder_path,collection_name)
-proposal_retriever=embedding_and_retrieval(folder_path=r"data\proposals_data",collection_name="proposal_path")
+project_retriever = create_retriever("data/project_data", "project_data_1")
+proposal_retriever = create_retriever("data/proposals_data", "proposal_data_1")
+
 @tool
 def retriever_project_tool(query: str)-> str:
     """This tool searches and returns the information from the project_data"""
@@ -71,7 +71,7 @@ def retriever_proposal_tool(query: str)-> str:
     results=[]
     for i, doc in enumerate(docs):
         results.append(f"Document {i+1}: \n{doc.page_content}")
-        return "\n\n".join(results)
+    return "\n\n".join(results)
 
 tools=[retriever_project_tool, retriever_proposal_tool]
 llm=llm.bind_tools(tools)
@@ -83,35 +83,36 @@ def should_continue(state: AgentState):
     result=state["messages"][-1]
     return hasattr(result, "tool_calls") and len(result.tool_calls) > 0
 
-system_propmt="""
-You are a professional Upwork proposal writer specialized in data science, Python development, web scraping, automation, and AI projects.
-Your goal is to generate a concise, persuasive, client-centered proposal for a freelancer named Adiel Maina.
-Use the retriever tools available to generate this proposal, The retriever_project_tool will help in generating relevant projects that also act as experience and the retriever_proposal_tool will give some sample of the proposals that have recently been used and gotten a job 
+system_prompt = """
+You are an expert Upwork proposal writer specializing in data science, Python development, web scraping, automation, and AI projects.
+Your goal is to write concise, persuasive, and client-centered proposals for freelancer Adiel Maina.
 
-Instructions for generating the proposal:
+Use the available retriever tools:
+- retriever_project_tool → fetches relevant projects to reference.
+- retriever_proposal_tool → retrieves examples of successful past proposals.
 
-Read the job description or summary provided.
+Guidelines:
+1. Read the provided job description carefully.
+2. Identify the client's goals and pain points.
+3. start with a Hello if client name is provided say Hello client's name else just say hello
+make it client oriented not focused on what I can do rather focus it to the clients needs to appeal to client
+4. Use retriever tools to include relevant experience or project references.
+5. Summarize Adiel’s approach in 2–4 clear bullet points.
+6. End with a friendly call-to-action or question that encourages conversation.
 
-Identify the client's needs, pain points, and project scope.
+Keep it between 150–200 words, warm, and professional.
 
-Highlight Adiel's relevant experience: Python, web scraping (BeautifulSoup, Selenium, Scrapy, Playwright), APIs, data cleaning, AI/LLMs, automation scripts, ETL pipelines, or statistical modeling.also you can include a relevant experience from the project retrieved from the tool call
-
-Clearly explain how Adiel will approach the task, including 2–4 bullet points for deliverables or steps.
-
-Include a call-to-action inviting the client to discuss details(you can include a question to show concern for that job).
-
-Keep the proposal 150–200 words, professional, readable, and human-like.
-
-End with:
+End each proposal with:
 Best regards,
-Adiel Maina"""
+Adiel Maina
+"""
 
 tools_dict={our_tool.name: our_tool for our_tool in tools}
 
 def call_llm(state: AgentState)-> AgentState:
     """Funtion to call the LLM with the current state"""
     messages=list(state["messages"])
-    messages=[SystemMessage(content=system_propmt)] + messages
+    messages=[SystemMessage(content=system_prompt)] + messages
     message=llm.invoke(messages)
     return {"messages":[message]}
 
@@ -120,13 +121,13 @@ def take_action(state: AgentState)-> AgentState:
     tool_calls=state["messages"][-1].tool_calls
     results=[]
     for t in tool_calls:
-        print(f"Calling Tool: {t["name"]} with query: {t["args"].get("query", "No query provided")}")
+        print(f"Calling Tool: {t['name']} with query: {t['args'].get('query', 'No query provided')}")
         if not t["name"] in tools_dict:
-            print(f"\nTool: {t["name"]} does not exist")
+            print(f"\nTool: {t['name']} does not exist")
             result ="Incorrect Tool Name , Please retry and select tool from list of available tools"
 
         else:
-            result = tools_dict[t["name"]].invoke(t["args"].get("query",""))
+            result = tools_dict[t['name']].invoke(t['args'].get('query',''))
             print(f"Result length: {len(str(result))}")
         
         results.append(ToolMessage(tool_call_id=t['id'], name=t["name"], content=str(result)))
