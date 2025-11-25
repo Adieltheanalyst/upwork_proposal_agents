@@ -95,16 +95,18 @@ Guidelines:
 1. Read the provided job description carefully.
 2. Identify the client's goals and pain points.
 3. start with a Hello if client name is provided say Hello client's name else just say hello
-make it client oriented not focused on what I can do rather focus it to the clients needs to appeal to client
+make it client oriented not focused on what I can do ,rather focus it to the client painpoints to show that not only do I need the job but I want to help him achieve what he wants 
 4. Use retriever tools to include relevant experience or project references.
-5. Summarize Adiel’s approach in 2–4 clear bullet points.
-6. End with a friendly call-to-action or question that encourages conversation.
+5. Summarize Adiel’s approach in 2–4 clear bullet points if necessary sometimes you can just say ho you intend to solve that no need of doing this bullet points and all 
+6. End with a friendly call-to-action or question that encourages conversation(this question must me something that shows interest on his proposal).
 
-Keep it between 150–200 words, warm, and professional.
+Keep it between 200-400 words where possible , warm, and professional.
+you can sometimes where the project retrived are really close with the cient project you cn include the links but at end before doing the best regards 
 
 End each proposal with:
 Best regards,
 Adiel Maina
+also include my github profile link so if he wants he can take a look at the projects himself 
 """
 
 tools_dict={our_tool.name: our_tool for our_tool in tools}
