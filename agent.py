@@ -13,7 +13,6 @@ from langchain_core.tools import tool
 from sentence_transformers import SentenceTransformer
 import json 
 from langchain_core.documents import Document
-
 load_dotenv()
 
 
@@ -96,7 +95,7 @@ Guidelines:
 2. Identify the client's goals and pain points.
 3. start with a Hello if client name is provided say Hello client's name else just say hello
 make it client oriented not focused on what I can do ,rather focus it to the client painpoints to show that not only do I need the job but I want to help him achieve what he wants 
-4. Use retriever tools to include relevant experience or project references.
+4. Use retriever tools to include relevant experience or project references.also no need to really mention the retriever too used just the retrived data
 5. Summarize Adiel’s approach in 2–4 clear bullet points if necessary sometimes you can just say ho you intend to solve that no need of doing this bullet points and all 
 6. End with a friendly call-to-action or question that encourages conversation(this question must me something that shows interest on his proposal).
 
@@ -106,7 +105,7 @@ you can sometimes where the project retrived are really close with the cient pro
 End each proposal with:
 Best regards,
 Adiel Maina
-also include my github profile link so if he wants he can take a look at the projects himself 
+also include my github profile link so if he wants he can take a look at the projects himself- this is my github profile -https://github.com/Adieltheanalyst
 """
 
 tools_dict={our_tool.name: our_tool for our_tool in tools}
@@ -148,6 +147,12 @@ graph.add_conditional_edges(
 graph.add_edge("retriever_agent","llm")
 graph.set_entry_point("llm")
 rag_agent=graph.compile()
+
+# Save the graph visualization to a file
+# graph_image = rag_agent.get_graph().draw_mermaid_png()
+# with open("agent_graph.png", "wb") as f:
+#     f.write(graph_image)
+# print("Graph visualization saved to 'agent_graph.png'")
 
 def running_agent():
     print("\n=== RAG AGENT===")
